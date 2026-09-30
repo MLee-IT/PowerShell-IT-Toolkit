@@ -74,7 +74,7 @@ PowerShell-IT-Toolkit
 
     ## Project Goals
 
-    The goal of this project is to develop practival PowerShell skills while creating useful tools for common IT support and troubleshooting scenarios.
+    The goal of this project is to develop practical PowerShell skills while creating useful tools for common IT support and troubleshooting scenarios.
 
     The toolkit is designed to demonstrate the ability to use scripting and automation to gather technical information efficiently.
 
