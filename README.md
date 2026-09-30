@@ -67,15 +67,15 @@ The networking scripts can help technicians gather IP configuration information 
 
 ### Performance Troubleshooting
 
-The 'process-check.ps1' script can help identify running processes and review CPU usage when investigating performance issues.
+The `process-check.ps1` script can help identify running processes and review CPU usage when investigating performance issues.
 
 ### Storage Troubleshooting
 
-The 'disk-space.ps1' script can provide information about available filesystem drives when investigating storage-related problems.
+The `disk-space.ps1` script can provide information about available filesystem drives when investigating storage-related problems.
 
 ### Software Troubleshooting
 
-The 'installed-software.ps1' script can help identify installed applications and their versions.
+The `installed-software.ps1` script can help identify installed applications and their versions.
 
 ## Project Goals
 
