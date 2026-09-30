@@ -35,7 +35,6 @@ The scripts automate basic information-gathering tasks that a technician may per
 
 ## Project Structure
 
-```text
 PowerShell-IT-Toolkit
 |
 |-- README.md
@@ -50,38 +49,37 @@ PowerShell-IT-Toolkit
     |-- process-check.ps1
     |-- installed-software.ps1
     |-- ip-configuration.ps1
-    ```
 
-    ## Example Use Cases
+## Example Use Cases
 
-    ### System Troubleshooting
+### System Troubleshooting
 
-    The 'system-info.ps1' script can quickly identify the computer name, logged-in user, Windows version, system architecture, manufacturer, model, and physical memory.
+The 'system-info.ps1' script can quickly identify the computer name, logged-in user, Windows version, system architecture, manufacturer, model, and physical memory.
 
-    ### Network Troubleshooting
+### Network Troubleshooting
 
-    The networking scripts can help technicians gather IP configuration information review network adapters, and test connectivity.
+The networking scripts can help technicians gather IP configuration information review network adapters, and test connectivity.
 
-    ### Performance Troubleshooting
+### Performance Troubleshooting
 
-    The 'process-check.ps1' script can help identify running processes and review CPU usage when investigating performance issues.
+The 'process-check.ps1' script can help identify running processes and review CPU usage when investigating performance issues.
 
-    ### Storage Troubleshooting
+### Storage Troubleshooting
 
-    The 'disk-space.ps1' script can provide information about available filesystem drives when investigating storage-related problems.
+The 'disk-space.ps1' script can provide information about available filesystem drives when investigating storage-related problems.
 
-    ### Software Troubleshooting
+### Software Troubleshooting
 
-    The 'installed-software.ps1' script can help identify installed applications and their versions.
+The 'installed-software.ps1' script can help identify installed applications and their versions.
 
-    ## Project Goals
+## Project Goals
 
-    The goal of this project is to develop practical PowerShell skills while creating useful tools for common IT support and troubleshooting scenarios.
+The goal of this project is to develop practical PowerShell skills while creating useful tools for common IT support and troubleshooting scenarios.
 
-    The toolkit is designed to demonstrate the ability to use scripting and automation to gather technical information efficiently.
+The toolkit is designed to demonstrate the ability to use scripting and automation to gather technical information efficiently.
 
-    ## Portfolio Purpose
+## Portfolio Purpose
 
-    This project demonstrates hands-on experience with PowerShell, Windows administration, networking, troubleshooting, automation, and technical documentation.
+This project demonstrates hands-on experience with PowerShell, Windows administration, networking, troubleshooting, automation, and technical documentation.
 
-    It complements my IT Help Desk Troubleshooting Lab by demonstrating not only how I troubleshoot technical problems, but also how I can use scripting to automate common IT tasks.
+It complements my IT Help Desk Troubleshooting Lab by demonstrating not only how I troubleshoot technical problems, but also how I can use scripting to automate common IT tasks.
