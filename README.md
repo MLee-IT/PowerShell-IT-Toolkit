@@ -33,6 +33,18 @@ The scripts automate basic information-gathering tasks that a technician may per
 | `installed-software.ps1` | Lists installed software and version information |
 | `ip-configuration.ps1` | Displays IP address, gateway, and DNS configuration |
 | `service-check.ps1` | Displays currently running Windows services |
+| `event-log-check.ps1` | Checks recent System and Application errors |
+| `service-status.ps1` | Checks the status of a specific Windows service |
+| `startup-programs.ps1` | Displays programs configured to start with Windows |
+| `windows-update-check.ps1` | Checks the Windows Update service |
+| `environment-variables.ps1` | Displays system environment variables |
+| `logged-on-users.ps1` | Displays currently logged-on users |
+| `uptime-check.ps1` | Displays system uptime |
+| `memory-usage.ps1` | Displays physical memory usage |
+| `cpu-usage.ps1` | Displays current CPU utilization |
+| `disk-health.ps1` | Displays physical disk health status |
+| `network-adapter-status.ps1` | Displays network adapter status |
+| `dns-cache.ps1` | Displays the current DNS client cache |
 
 ## Project Structure
 
