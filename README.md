@@ -35,6 +35,7 @@ The scripts automate basic information-gathering tasks that a technician may per
 
 ## Project Structure
 
+```text
 PowerShell-IT-Toolkit
 |
 |-- README.md
@@ -49,6 +50,7 @@ PowerShell-IT-Toolkit
     |-- process-check.ps1
     |-- installed-software.ps1
     |-- ip-configuration.ps1
+    ```
 
     ## Example Use Cases
 
