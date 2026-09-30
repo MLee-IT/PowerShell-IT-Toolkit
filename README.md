@@ -25,16 +25,19 @@ The scripts automate basic information-gathering tasks that a technician may per
 
 | Script | Purpose |
 |---|---|
-| 'system-info.ps1' | Collects basic computer and operating system information |
-| 'network-info.ps1' | Displays network configuration and network adapter information |
-| 'disk-space.ps1' | Displays available filesystem drives and storage information |
-| 'ping-test.ps1' | Tests connectivity to a hostname or IP address |
-| 'process-check.ps1' | Displays running processes and CPU usage |
-| 'installed-software.ps1' | Lists installed software and version information |
-| 'ip-configuration.ps1' | Displays IP address, gateway, and DNS configuration |
+| `system-info.ps1` | Collects basic computer and operating system information |
+| `network-info.ps1` | Displays network configuration and network adapter information |
+| `disk-space.ps1` | Displays available filesystem drives and storage information |
+| `ping-test.ps1` | Tests connectivity to a hostname or IP address |
+| `process-check.ps1` | Displays running processes and CPU usage |
+| `installed-software.ps1` | Lists installed software and version information |
+| `ip-configuration.ps1` | Displays IP address, gateway, and DNS configuration |
+| `service-check.ps1` | Displays currently running Windows services |
 
 ## Project Structure
 
+
+```text
 PowerShell-IT-Toolkit
 |
 |-- README.md
@@ -49,12 +52,14 @@ PowerShell-IT-Toolkit
     |-- process-check.ps1
     |-- installed-software.ps1
     |-- ip-configuration.ps1
+    |-- service-check.ps1
+ ```
 
 ## Example Use Cases
 
 ### System Troubleshooting
 
-The 'system-info.ps1' script can quickly identify the computer name, logged-in user, Windows version, system architecture, manufacturer, model, and physical memory.
+The `system-info.ps1` script can quickly identify the computer name, logged-in user, Windows version, system architecture, manufacturer, model, and physical memory.
 
 ### Network Troubleshooting
 
