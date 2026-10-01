@@ -54,46 +54,73 @@ For additional information, see the documentation in the `docs` folder.
 
 | Script | Purpose |
 |---|---|
-| `system-info.ps1` | Collects basic computer and operating system information |
-| `network-info.ps1` | Displays network configuration and network adapter information |
-| `disk-space.ps1` | Displays available filesystem drives and storage information |
-| `ping-test.ps1` | Tests connectivity to a hostname or IP address |
-| `process-check.ps1` | Displays running processes and CPU usage |
-| `installed-software.ps1` | Lists installed software and version information |
-| `ip-configuration.ps1` | Displays IP address, gateway, and DNS configuration |
-| `service-check.ps1` | Displays currently running Windows services |
-| `event-log-check.ps1` | Checks recent System and Application errors |
-| `service-status.ps1` | Checks the status of a specific Windows service |
-| `startup-programs.ps1` | Displays programs configured to start with Windows |
-| `windows-update-check.ps1` | Checks the Windows Update service |
-| `environment-variables.ps1` | Displays system environment variables |
-| `logged-on-users.ps1` | Displays currently logged-on users |
-| `uptime-check.ps1` | Displays system uptime |
-| `memory-usage.ps1` | Displays physical memory usage |
 | `cpu-usage.ps1` | Displays current CPU utilization |
 | `disk-health.ps1` | Displays physical disk health status |
-| `network-adapter-status.ps1` | Displays network adapter status |
+| `disk-space.ps1` | Displays available filesystem drives and storage information |
 | `dns-cache.ps1` | Displays the current DNS client cache |
+| `environment-variables.ps1` | Displays system environment variables |
+| `event-log-check.ps1` | Checks recent System and Application errors |
+| `installed-software.ps1` | Lists installed software and version information |
+| `ip-configuration.ps1` | Displays IP address, gateway, and DNS configuration |
+| `logged-on-users.ps1` | Displays currently logged-on users |
+| `memory-usage.ps1` | Displays physical memory usage |
+| `network-adapter-status.ps1` | Displays network adapter status |
+| `network-info.ps1` | Displays network configuration and network adapter information |
+| `ping-test.ps1` | Tests connectivity to a hostname or IP address |
+| `process-check.ps1` | Displays running processes and CPU usage |
+| `system-info.ps1` | Collects basic computer and operating system information |
+| `service-check.ps1` | Displays currently running Windows services |
+| `service-status.ps1` | Checks the status of a specific Windows service |
+| `startup-programs.ps1` | Displays programs configured to start with Windows |
+| `uptime-check.ps1` | Displays system uptime |
+| `windows-update-check.ps1` | Checks the Windows Update service |
 
 ## Project Structure
 
 
 ```text
-PowerShell-IT-Toolkit
+PowerShell-IT-Toolkit/
+|
+|-- docs/
+|   |-- cpu-usage.md
+|   |-- disk-health.md
+|   |-- dns-cache.md
+|   |-- environment-variables.md
+|   |-- event-log-check.md
+|   |-- logged-on-users.md
+|   |-- memory-usage.md
+|   |-- network-adapter-status.md
+|   |-- service-check.md
+|   |-- service-status.md
+|   |-- startup-programs.md
+|   |-- troubleshooting-guide.md
+|   |-- uptime-check.md
+|   |-- usage-guide.md
+|   |-- windows-update-check.md
+|
+|-- scripts/
+|   |-- cpu-usage.ps1
+|   |-- disk-health.ps1
+|   |-- disk-space.ps1
+|   |-- dns-cache.ps1
+|   |-- environment-variables.ps1
+|   |-- event-log-check.ps1
+|   |-- installed-software.ps1
+|   |-- ip-configuration.ps1
+|   |-- logged-on-user.ps1
+|   |-- memory-usage.ps1
+|   |-- network-adapter-status.ps1
+|   |-- network-info.ps1
+|   |-- ping-test.ps1
+|   |-- process-check.ps1
+|   |-- service-check.ps1
+|   |-- service-status.ps1
+|   |-- startup-programs.ps1
+|   |-- system-info.ps1
+|   |-- uptime-check.ps1
+|   |-- windows-update-check.ps1
 |
 |-- README.md
-|
-|-- docs
-|
-|-- scripts
-    |-- system-info.ps1
-    |-- network-info.ps1
-    |-- disk-space.ps1
-    |-- ping-test.ps1
-    |-- process-check.ps1
-    |-- installed-software.ps1
-    |-- ip-configuration.ps1
-    |-- service-check.ps1
  ```
 
 ## Example Use Cases
