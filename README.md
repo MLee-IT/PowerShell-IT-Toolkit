@@ -6,6 +6,18 @@ The PowerShell IT Toolkit is a collection of PowerShell scripts designed to assi
 
 The scripts automate basic information-gathering tasks that a technician may perform when diagnosing Windows computers and network connectivity issues.
 
+## Portfolio Purpose
+
+This project demonstrates hands-on experience with PowerShell, Windows administration, networking, troubleshooting, automation, and technical documentation.
+
+It complements my IT Help Desk Troubleshooting Lab by demonstrating not only how I troubleshoot technical problems, but also how I can use scripting to automate common IT tasks.
+
+## Project Goals
+
+The goal of this project is to develop practical PowerShell skills while creating useful tools for common IT support and troubleshooting scenarios.
+
+The toolkit is designed to demonstrate the ability to use scripting and automation to gather technical information efficiently.
+
 ## Skilled Demonstration
 
 - PowerShell scripting
@@ -116,15 +128,3 @@ Documentation includes:
 - Troubleshooting guidance
 - Tool-specific documentation
 - PowerShell commands and examples
-
-## Project Goals
-
-The goal of this project is to develop practical PowerShell skills while creating useful tools for common IT support and troubleshooting scenarios.
-
-The toolkit is designed to demonstrate the ability to use scripting and automation to gather technical information efficiently.
-
-## Portfolio Purpose
-
-This project demonstrates hands-on experience with PowerShell, Windows administration, networking, troubleshooting, automation, and technical documentation.
-
-It complements my IT Help Desk Troubleshooting Lab by demonstrating not only how I troubleshoot technical problems, but also how I can use scripting to automate common IT tasks.
