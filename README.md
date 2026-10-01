@@ -21,6 +21,23 @@ The scripts automate basic information-gathering tasks that a technician may per
 - Command-line troubleshooting
 - IT task automation
 
+## How to Use
+
+1. Clone or download this repository.
+2. Open PowerShell.
+3. Navigate to the repository folder.
+4. Run the desired script from the `scripts` folder.
+
+Example:
+
+```powershell
+.\scripts\system-info.ps1
+```
+
+Each script is designed to help gather information during common IT troubleshooting scenarios.
+
+For additional information, see the documentation in the `docs` folder.
+
 ## Tools
 
 | Script | Purpose |
@@ -88,6 +105,17 @@ The `disk-space.ps1` script can provide information about available filesystem d
 ### Software Troubleshooting
 
 The `installed-software.ps1` script can help identify installed applications and their versions.
+
+## Documentation
+
+Detailed documentation for the toolkit is available in the `docs` folder.
+
+Documentation includes:
+
+- Usage insructions
+- Troubleshooting guidance
+- Tool-specific documentation
+- PowerShell commands and examples
 
 ## Project Goals
 
